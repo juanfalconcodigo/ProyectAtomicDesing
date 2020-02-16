@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: $font-size-base;
+}
+
+body {
+    font-family: $font-family-primary;
+    font-size: $font-size-global;
+    color: map-get($colors-neutrals, "grey");
+}
+
+a {
+    text-decoration: none;
+}

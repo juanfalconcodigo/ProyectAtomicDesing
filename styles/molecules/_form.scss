@@ -1,0 +1,123 @@
+.form {
+    /* background: teal;*/
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.color-form-grey {
+    color: map-get($colors-neutrals, "grey");
+}
+
+.color-form-primary {
+    color: map-get($colors-branding, "primary");
+}
+
+.color-form-complementary {
+    color: map-get($colors-branding, "complementary");
+    font-weight: bold;
+}
+
+
+/*para formulario con cssgrid register*/
+
+.form-grid {
+    /*background: yellow;*/
+    display: grid;
+    grid-template-areas: "nombre apellido" "telefono direccion" "sexo sexo" "usuario contrasena" "correo correo" "dato dato" "especialidad nada" "info info" "social social" "face face" "twitter twitter" "github github" "linkedin linkedin" "codepen codepen" "registrar registrar";
+    gap: 2rem;
+}
+
+.a {
+    grid-area: nombre;
+    /*background: blue;*/
+}
+
+.b {
+    grid-area: apellido;
+    /*background: red;*/
+}
+
+.c {
+    grid-area: telefono;
+    /*background: green;*/
+}
+
+.d {
+    grid-area: direccion;
+    /*background: orange;*/
+}
+
+.e {
+    grid-area: sexo;
+    /*background: tomato;*/
+}
+
+.f {
+    grid-area: usuario;
+    /*background: tomato;*/
+}
+
+.g {
+    grid-area: contrasena;
+    /*background: tomato;*/
+}
+
+.h {
+    grid-area: correo;
+    /*background: tomato;*/
+}
+
+.i {
+    grid-area: dato;
+    /*background: tomato;*/
+}
+
+.j {
+    grid-area: especialidad;
+    /*background: tomato;*/
+}
+
+.k {
+    grid-area: nada;
+    /*background: tomato;*/
+}
+
+.l {
+    grid-area: info;
+    /*background: tomato;*/
+}
+
+.m {
+    grid-area: social;
+    /*background: tomato;*/
+}
+
+.n {
+    grid-area: face;
+    /*background: tomato;*/
+}
+
+.o {
+    grid-area: twitter;
+    /*background: tomato;*/
+}
+
+.p {
+    grid-area: github;
+    /*background: tomato;*/
+}
+
+.q {
+    grid-area: linkedin;
+    /*background: tomato;*/
+}
+
+.r {
+    grid-area: codepen;
+    /*background: tomato;*/
+}
+
+.s {
+    grid-area: registrar;
+    /*background: tomato;*/
+}

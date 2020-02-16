@@ -1,0 +1,31 @@
+@import '../../core';
+.pag-login {
+    color: map-get($colors-branding, "primary");
+    & main {
+        /*background: yellow;*/
+        width: 100%;
+        height: 70vh;
+    }
+    &__footer {
+        width: 100%;
+        bottom: 0rem;
+        position: absolute;
+    }
+    & h1 {
+        font-size: 3.2rem;
+        font-weight: normal;
+    }
+    & h6 {
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: map-get($colors-neutrals, "grey");
+    }
+    & label {
+        color: map-get($colors-neutrals, "grey");
+    }
+    & article {
+        /*background: yellow;*/
+        width: 30rem;
+        margin: 1rem auto;
+    }
+}

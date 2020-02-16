@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/f.ico" type="image/x-icon">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./styles/page/register/pag-register.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="pag-register">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container d-flex jc-space-between ai-center">
+                <a class="header__logo" href="./index.html">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+
+                <article>
+                    <h1 class="color-form-primary">Registrate</h1>
+
+                    <h6 class="mb-0">Datos Personales</h6>
+                    <h6>Por favor completa tus datos</h6>
+
+                    <form id="id-form" action="" class="form-grid">
+                        <div class="d-flex d-flex-column a">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="imput-form" data-form="name" id="name" required>
+                        </div>
+                        <div class="d-flex d-flex-column b">
+                            <label for="">Apellido</label>
+                            <input type="text" class="imput-form" data-form="lastname" required>
+                        </div>
+                        <div class="d-flex d-flex-column c">
+                            <label for="">Teléfono - Celular</label>
+                            <input type="text" class="imput-form" data-form="cell" required>
+                        </div>
+                        <div class="d-flex d-flex-column d">
+                            <label for="">Dirección</label>
+                            <input type="text" class="imput-form" data-form="address" required>
+                        </div>
+                        <div class="e">
+                            <p class="mt-0 mb-0">Sexo</p>
+                            <label for="rbF">Femenino</label>
+                            <input type="radio" name="sexo" id="rbF" value="F">
+                            <label for="rbM">Masculino</label>
+                            <input type="radio" name="sexo" id="rbM" value="M">
+                        </div>
+
+
+                        <div class="d-flex d-flex-column f">
+                            <label for="">Usuario</label>
+                            <input type="text" class="imput-form" data-form="user" required>
+                        </div>
+                        <div class="d-flex d-flex-column g">
+                            <label for="">Contraseña</label>
+                            <input type="text" class="imput-form" data-form="password" required>
+                        </div>
+                        <div class="d-flex d-flex-column h">
+                            <label for="">Correo Electrónico</label>
+                            <input type="email" class="imput-form" data-form="email" required>
+                        </div>
+                        <div class="i">
+                            <h6 class="mb-0">Datos Personales</h6>
+                            <h6 class="mb-0">Por favor completa tus datos</h6>
+
+                        </div>
+                        <div class="d-flex d-flex-column j">
+                            <label for="">Especialidad</label>
+                            <select class="select" name="" id="" data-form="skill">
+                                <option value="html">Html</option>
+                                <option value="css">Css</option>
+                            </select>
+
+                        </div>
+                        <div class="d-flex d-flex-column l">
+                            <label for="">Cuentanos sobre ti</label>
+                            <textarea class="textarea" name="" id="" cols="30" rows="10" data-form="me" required></textarea>
+                        </div>
+                        <div class="m">
+                            <h6 class="mb-0">Redes sociales</h6>
+                            <h6 class="mb-0">Por favor completa tus datos</h6>
+                        </div>
+
+                        <div class="d-flex d-flex-column n">
+                            <label for="">Facebook</label>
+                            <input type="text" class="imput-form" data-form="face" required>
+                        </div>
+                        <div class="d-flex d-flex-column o">
+                            <label for="">Twitter</label>
+                            <input type="text" class="imput-form" data-form="twitter" required>
+                        </div>
+                        <div class="d-flex d-flex-column p">
+                            <label for="">Github</label>
+                            <input type="text" class="imput-form" data-form="github" required>
+                        </div>
+                        <div class="d-flex d-flex-column q">
+                            <label for="">Linkedin</label>
+                            <input type="text" class="imput-form" data-form="linkedin" required>
+                        </div>
+                        <div class="d-flex d-flex-column r">
+                            <label for="">Codepen</label>
+                            <input type="text" class="imput-form" data-form="codepen" required>
+                        </div>
+                        <button id="id-btn-registrar" type="submit" class="button button--primary-form s mt-2">Registrar</button>
+
+                    </form>
+
+
+
+
+
+
+
+
+                </article>
+
+            </div>
+
+
+        </main>
+
+        <footer class="footer pag-register__footer mt-20-footer">
+            <div class="container d-flex jc-space-between ai-center">
+                <p>Todos los derechos reservados | 2019</p>
+                <a href="">
+                    <img src="./images/logo.png" alt="logo" width="80">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./scripts/register.js"></script>
+</body>
+
+</html>

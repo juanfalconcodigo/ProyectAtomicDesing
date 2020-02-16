@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+    padding: $button-padding;
+    color: map-get($colors-neutrals, "white");
+    font-size: pixelToRem(13);
+    border-radius: $button-radius;
+    &--primary {
+        background-color: map-get($colors-branding, "complementary");
+    }
+    &--primary-form {
+        background-color: map-get($colors-branding, "complementary");
+        border-radius: $button-radius-form;
+        font-size: pixelToRem(18);
+        border: none;
+    }
+    &--secondary {
+        background-color: map-get($colors-branding, "secondary");
+    }
+    &--small {
+        font-size: pixelToRem(11);
+        padding: $button-padding-small;
+        font-size: pixelToRem(11);
+    }
+    &--medium {
+        padding: $button-padding-medium;
+        font-size: pixelToRem(13);
+    }
+    &--large {
+        padding: $button-padding-large;
+        font-size: pixelToRem(18);
+    }
+}

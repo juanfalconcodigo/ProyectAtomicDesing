@@ -1,0 +1,127 @@
+@import "../tools/functions/functions";
+
+/********************************************************
+* GLOBALS
+********************************************************/
+
+
+/**
+ * URL
+ */
+
+//$url-base: "http://127.0.0.1:5500";
+
+/*
+ * COLORS
+ */
+
+$colors-branding: ( "primary": #0d3964, "secondary": #ffba7a, "complementary": #3dc154);
+$colors-neutrals: ( "white": #fff, "black": #000, "grey": #7f7f7f, "grey-light": #cbcbcb);
+$colors-semanctic: ( "success": #059d2b, "danger": #ffd0a5, "error": #ff0000, "message": #5075ea);
+$colors-i:( "facebook":#566cfe, "twitter":#007ebf, "github":#000000, "linkedin":#1a2e88, "codepen":#000000, "instagram":#e4405f);
+
+/**
+ * FONT FAMILY
+ */
+
+$font-family-primary: exo;
+$font-family-global: arial;
+
+/*
+ * FONT SIZE
+ */
+
+$font-size-base: 62.5%;
+$font-size-global: pixelToRem(13);
+$font-size-h1: pixelToRem(32);
+$font-size-h2: pixelToRem(26);
+$font-size-h3: pixelToRem(24);
+$font-size-h4: pixelToRem(20);
+$font-size-h5: pixelToRem(18);
+$font-size-h6: pixelToRem(16);
+$font-size-p: $font-size-global;
+
+/*
+* LINE HEIGHT
+*/
+
+$line-height-h1: pixelToRem(38);
+$line-height-h2: pixelToRem(32);
+$line-height-h3: pixelToRem(30);
+$line-height-h4: pixelToRem(26);
+$line-height-h5: pixelToRem(24);
+$line-height-h6: pixelToRem(22);
+$line-height-p: pixelToRem(20);
+
+/*
+* FONT SIZE - MEASURE
+*/
+
+$measure: "rem";
+
+/*
+* FONTS - MARGIN
+*/
+
+$margin-bottom-h1: pixelToRem(20);
+$margin-bottom-h2: pixelToRem(20);
+$margin-bottom-h3: pixelToRem(20);
+$margin-bottom-h4: pixelToRem(20);
+$margin-bottom-h5: pixelToRem(20);
+$margin-bottom-h6: pixelToRem(20);
+$margin-top-bottom-p: pixelToRem(20);
+
+/*
+* MEDIA-QUERIES
+*/
+
+$media-queries: ( "x-sm": 320, "sm": 520, "md": 800, "lg": 1024);
+
+/********************************************************
+* BUTTONS
+********************************************************/
+
+$button-padding: 10px 16px;
+$button-padding-small: 5px 8px;
+$button-padding-medium: 8px 14px;
+$button-padding-large: 25px 50px;
+$button-radius: 30px;
+$button-radius-form: 4px;
+
+/*para margenes */
+
+.mt-0 {
+    margin-top: 0rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-9-footer {
+    margin-top: 9rem;
+}
+
+.mt-20-footer {
+    margin-top: 20rem;
+}
+
+.mb-0 {
+    margin-bottom: 0rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mr-12 {
+    margin-right: 12rem;
+}

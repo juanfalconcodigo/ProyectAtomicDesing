@@ -1,0 +1,24 @@
+@import '../../core';
+.pag-register {
+    color: map-get($colors-neutrals, "grey");
+    &__footer {
+        width: 100%;
+        bottom: 0rem;
+        position: relative;
+        color: map-get($colors-branding, "primary");
+    }
+    & h1 {
+        font-size: 4.2rem;
+        font-weight: normal;
+    }
+    & h6 {
+        font-size: 1.3rem;
+        font-weight: normal;
+        line-height: 1.54;
+    }
+    & article {
+        /*background: yellow;*/
+        width: 47rem;
+        margin: 0rem auto;
+    }
+}
